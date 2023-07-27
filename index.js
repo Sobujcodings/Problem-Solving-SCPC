@@ -11,21 +11,6 @@ console.log(reverseString("hello world"));
 
 
 
-// Task 2 : Create a function that takes an array of numbers as input and returns the sum of all positive numbers in the array. Example Input: [2, -5, 10, -3, 7] Example Output: 19 
-
-function sumOfPositiveNumbers(arr) {
-    let sum = 0;
-    for (let num of arr) {
-        if (num > 0) {
-            sum += num;
-        }
-    }
-    return sum;
-}
-
-console.log("sum Of Positive Numbers",sumOfPositiveNumbers([2, -5, 16, -5, 8]));
-
-
 
 // Task 3: Write a JavaScript program to find the most frequent element in an array and return it.  Example Input: [3, 5, 2, 5, 3, 3, 1, 4, 5] Example Output: 3 
 
@@ -73,6 +58,7 @@ console.log(calculator(10, "/", 2));
 
 
 
+
 // Task 6: Create a program that generates a random password of a specified length. The password should include a mix of uppercase letters, lowercase letters, numbers, and special characters. 
 
 function generateRandomPassword(length) {
@@ -89,6 +75,25 @@ function generateRandomPassword(length) {
 }
 
 console.log(generateRandomPassword(12));
+
+
+
+
+
+// Task 2 : Create a function that takes an array of numbers as input and returns the sum of all positive numbers in the array. Example Input: [2, -5, 10, -3, 7] Example Output: 19 
+
+function sumOfPositiveNumbers(arr) {
+    let sum = 0;
+    for (let num of arr) {
+        if (num > 0) {
+            sum += num;
+        }
+    }
+    return sum;
+}
+
+console.log("sum Of Positive Numbers",sumOfPositiveNumbers([2, -5, 16, -5, 8]));
+
 
 
 
@@ -123,6 +128,8 @@ function romanToInt(roman) {
 
 console.log(romanToInt("II"));
 console.log(romanToInt("IX"));
+
+
 
 
 
